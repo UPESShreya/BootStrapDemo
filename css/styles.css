@@ -1,0 +1,55 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  .navbar-brand h1{
+    text-align:left;
+  }
+
+  .nav_link{
+    justify-content:space-between;
+    color: brown;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .nav-item{
+    padding:10px;
+    font-size-adjust: initial7777;
+
+  }
+
+  .carousel-caption{
+    color:seashell;
+    text-align:center;
+    margin:100px;
+  }
+  .col h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top:20px;
+  }
+
+  .card-body{
+    text-align: center;
+    background: lightgrey;
+    
+  }
+
+  .card{
+    margin:50px;
+  }
+
+  .display-4{
+    color:rosybrown;
+  }
+
+  .footer-icons{
+    text-align:center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
